@@ -43,7 +43,21 @@ public class installer {
             default:
             System.out.println("password accettabile");
             System.out.println("ok possiamo continuare");
-            System.out.println("ok user creato premi invio per usire");
+            //creami il disco
+            System.out.println("creazione disco in corso");
+            simulateLoading();
+            System.out.println("disco creato");
+            //installazione del sistema operativo
+            System.out.println("installazione sistema operativo in corso");
+            simulateLoading();
+            System.out.println("sistema operativo installato");
+            //installazione dei driver
+            System.out.println("installazione driver in corso");
+            simulateLoading();
+            //installazione addon
+            System.out.println("installazione addon in corso");
+            simulateLoading();
+            System.out.println("premi invio per usire");
             scanner.nextLine();
             scanner.close();
             break;
@@ -51,5 +65,17 @@ public class installer {
         
 
     }
+    
+   }
+   private static void simulateLoading() {
+    for (int i = 0; i < 10; i++) {
+        System.out.print("\rLoading: " + i + "%");
+        try {
+            Thread.sleep(100);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                }
+                }
+                System.out.println();
    }
 }
