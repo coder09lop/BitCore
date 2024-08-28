@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 //inizio programma
 
 public class installer {
-   public static void ma6in(String[] args) {
+   public static void main(String[] args) {
     // Create a new Scanner object
     Scanner scanner = new Scanner(System.in);
     System.out.println("benvenuto nella hacker box ");
