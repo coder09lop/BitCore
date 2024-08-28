@@ -3,6 +3,6 @@
 while true
 do
     echo "engine is executing"
-    ./installer.java
+    ./backup/backup-2.sh
     sleep 1
 done
