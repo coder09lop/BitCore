@@ -11,7 +11,7 @@ public class installer {
     System.out.println("benvenuto nella hacker box ");
     System.out.println("inserisci il tuo nome");
     String nome = scanner.nextLine();
-    scanner.close();
+    
     switch(nome) {
         case "hacker":
         System.out.println("benvenuto hacker");
@@ -20,7 +20,7 @@ public class installer {
         System.out.println("benvenuto oms");
         System.out.println("inserisci password");
         String oms = scanner.nextLine();
-        scanner.close();
+        
         if (oms == "password"); {
             System.out.println("acesso consentito");
             System.out.println("benvenuto nell pannello di controllo");
@@ -32,7 +32,7 @@ public class installer {
         System.out.println(nome);
         System.out.println("scegli una password");
         String password = scanner.nextLine();
-        scanner.close();
+        
         switch(password) {
             case "password":
             System.out.println("password molto prevedibile");
@@ -63,7 +63,7 @@ public class installer {
             break;
         }
         
-
+        scanner.close();
     }
     
    }
