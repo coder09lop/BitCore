@@ -31,11 +31,6 @@ THIRD YOU NEED TO start the installer.java with [javac installer.java this will 
 #####################
 
 
-[Provide run instructions, e.g. node index.js, etc.]
-Contributing
-Contributions to BitCore are welcome! If you'd like to contribute, please follow these steps:
-
-[Provide guidelines for contributing, e.g. fork the repo, create a pull request, etc.]
 License
 BitCore is licensed under the [Apache-2.0 license].
 
