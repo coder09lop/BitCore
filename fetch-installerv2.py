@@ -39,3 +39,4 @@ def FetchInstaller():
     print("installazione completata!")
     print("il BootLoader e' stato installato con successo!")
     print("per favore, riavvia il tuo computer per applicare le modifiche")
+    print("installazione completata!")
