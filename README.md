@@ -1,6 +1,7 @@
 BitCore
 Introduction
 BitCore is a replica of OpenCore but not only in mac but all the OS. This repository contains the source code for BitCore, a OpenCore replica
+
 REQUIMENTS :
 1. Java Development Kit
 2. Python pip installed
