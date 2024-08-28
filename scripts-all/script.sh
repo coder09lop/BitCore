@@ -1,0 +1,6 @@
+echo "script 1 is loading"
+echo "script 2 is loading"
+echo "scripts-all are loading"
+echo "script 1 is loaded"
+echo "script 2 is loaded"
+echo "scripts-all are loaded"

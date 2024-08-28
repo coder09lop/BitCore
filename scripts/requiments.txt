@@ -1,6 +1,0 @@
-echo: "all the requiments are running!"
-echo: "all the requiments are running!"
-echo: "script-1"
-else
-echo: "script-1"
-echo: "script-1 is not running"
