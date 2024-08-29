@@ -17,6 +17,10 @@ public class jailbreaker {
                 System.out.println("avviando jailbreaker");
                 simulateStartup();
                 break;
+            case "2":
+                System.out.println("avviando jailbreaker con root");
+                simulateStartupWithRoot();
+                simulateLoadingWithRoot();
            
         }
         
@@ -26,7 +30,6 @@ public class jailbreaker {
         simulateLoading();
         System.out.println("jailbreaker avviato");
     }
-    @SuppressWarnings("unused")
     private static void simulateStartupWithRoot() {
         System.out.println("avviando jailbreaker con root...");
         simulateLoading();
@@ -43,5 +46,16 @@ public class jailbreaker {
         }
         System.out.println();
     }
+    private static void simulateLoadingWithRoot() {
+        for (int i = 0; i < 10; i++) {
+            System.out.println(".");
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+            System.out.println();
 
-}
+    }
+
+    } }
