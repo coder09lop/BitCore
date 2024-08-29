@@ -9,6 +9,7 @@ public class jailbreaker {
         System.out.println("jailbraker 1 update 1.090.8");
         System.out.println("1. avvia jailbreaker");
         System.out.println("2. avvia jailbreaker con root");
+        System.out.println("3. exit");
         String sc = scanner.nextLine();
         scanner.close();
         switch(sc) {
@@ -21,6 +22,12 @@ public class jailbreaker {
                 System.out.println("avviando jailbreaker con root");
                 simulateStartupWithRoot();
                 simulateLoadingWithRoot();
+                break;
+            case "3":
+                System.out.println("ciao");
+                break;
+            default:
+                System.out.println("non è un opzione valida!");
            
         }
         
