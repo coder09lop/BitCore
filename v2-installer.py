@@ -1,52 +1,29 @@
 import os
+import subprocess
+import sys
 
-
-
-
-
-
-print("salve selezionare tipo di sistema")
-print("1. Linux")
-print("2. Windows")
-print("3. macos")
-print("4. exit")
-print("selezionare 1-4")
-tipo_sistema = input("inserisci il numero del sistema: ")
-if tipo_sistema == "1":
-    print("continuare con l'installazione?")
-    installazione = input("inserisci s per continuare o n per annullare:")
-    if installazione == "s":
-        print("installazione avviata")
-        os.system("sudo apt-get wine64")
-        for numero in range (1000):
-            print(numero)
-        print("installazione completata")
-    elif installazione == "n":
-        print("installazione annullata")
-    else:
-        print("errore")
-#elif2    
-elif tipo_sistema == "2":
-    print("continuare con l'installazione?")
-    installazione = input("inserisci s per continuare o n per annullare:")
-    if installazione == "s":
-        os.system("sudo apt-get wine64")
-        for numero in range (1000):
-            print(numero)
-        print("installazione completata")
-    elif installazione == "n":
-        print("installazione annullata")
-    else:
-        print("errore")
-elif tipo_sistema == "3":
-    print("continuare con l'installazione?")
-    installazione = input("s/n:")
-    if installazione == "s":
-        os.system("sudo apt-get wine64")
-        for numero in range (1000):
-            print(numero)
-        print("installzione completata")
-elif tipo_sistema == "4":
-    print("ciao")
-else:
-    print("errore")
+#inizio
+def main():
+    #main
+    print("Inizio")
+    #creo il file
+    with open("file.txt", "w") as file:
+        file.write("Test passed!")
+        #apro il file
+        with open("file.txt", "r") as file:
+            #leggo il file
+            print(file.read())
+            #chiudo il file
+            file.close()
+    print("1/3")
+    os.system("whoami")
+    print("2/3")
+    #apro il file
+    with open("image-loader.sh", "r") as file:
+        #leggo il file
+        print(file.read())
+        file.close()
+    print("3/3")
+    #fin
+    
+#chiudo il file
