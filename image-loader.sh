@@ -1,5 +1,4 @@
 echo "image loader"
-echo "image loader"
 echo "what image you loaded"
 #if statement
 if [ "$1" == "win11" ]; then
