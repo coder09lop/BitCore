@@ -5,8 +5,7 @@ BitCore is a replica of OpenCore but not only in mac but all the OS. This reposi
 # REQUIMENTS :
 1. Read the 'Read.md'
 2. you need a linux distro [note this works only with linux]
-# NOTE
-wsl works too!
+NOTE wsl works too!
 
 
 ####################
