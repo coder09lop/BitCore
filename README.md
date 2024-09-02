@@ -3,11 +3,8 @@ Introduction
 BitCore is a replica of OpenCore but not only in mac but all the OS. This repository contains the source code for BitCore, a OpenCore replica
 
 REQUIMENTS :
-1. Java Development Kit
-2. Python pip installed
-3. Python 3.8 or higher
-4. Java 8 or higher
-5. A linux distro [note this works only with linux]
+1. Read the 'Read.md'
+2. you need a linux distro [note this works only with linux]
 
 
 ####################
@@ -26,7 +23,7 @@ Installation
 To install BitCore, follow these steps:
 FIRST YOU NEED TO start the v2-installer.py typing: python3 ./v2-installer.py
 SECOND YOU NEED TO install the dependencies typing: pip3 install -r requirements.txt (is not necessary)
-THIRD YOU NEED TO start the installer.java with [javac installer.java this will create a file called installer.class then run with "java installer"]
+THIRD YOU NEED TO start the installer.java with [javac installer.java this will create a file called installer.class then run command "java installer"]
 
 
 #####################
