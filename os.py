@@ -3,10 +3,6 @@ import subprocess
 import sys
 
 #start code
-def OS():
-    return sys.platform
-osv = OS()
-print("the current OS is:", osv)
 def OSI():
     print("welcome to the os installer! select the os version you want to install")
     print("1. windows 10")
